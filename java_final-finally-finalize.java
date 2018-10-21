@@ -1,4 +1,4 @@
-final - Słowo kluczowe. Tworzy zmienną finalną.
+final - Słowo kluczowe. Tworzy zmienną finalną, zapobiega przesłanianiu metod i dziedziczeniu.
 
 finally{} - Blok. Stosowany przy wyjątkach blok instrukcji, który wykona się niezależnie, czy wyjątki wystąpią, czy nie.
 
