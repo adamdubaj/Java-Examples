@@ -14,6 +14,15 @@ public class Main {
         //append: false plik nadpisujemy - tworzymy od nowa
         //FileWriter mozna opakowac np w BufferedWriter:
         //BufferedWriter bf = new BufferedWriter(new FileWriter("file.txt", true));
+        
+        //zamiast proby zapisu czegos do pliku mozna po prostu wywolac metode createNewFile();
+        /*try {
+            file.createNewFile();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        */
+        
         try (FileWriter f = new FileWriter(file, false)) {
             f.write("");
         } catch (IOException e) {
